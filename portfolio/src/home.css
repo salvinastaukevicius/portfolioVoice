@@ -1,0 +1,45 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1500px;
+
+    
+}
+
+#screenSize {
+    
+    max-width: 1300px;
+    background-color: aqua;
+    
+    border: 1px solid gray;
+    
+
+}
+
+#hi {
+    height: 100vh;
+    background-color: rgb(159, 183, 188);
+    margin: -370px 100px 100px 100px;
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+#sticky {
+    position: sticky;
+    top: 160px;
+}
+
+#face {
+    height: 500px;
+    rotate: 360deg;
+    opacity: 40%;
+    margin-top: 120px;
+    margin-right: 10%;
+}
